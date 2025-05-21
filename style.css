@@ -1,9 +1,76 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 15px;
+
+  
+}
+h1,h2,h4{
+  font-family: Arial, sans-serif ;
+  font-size: 16px;
+  line-height:24px ;
+  Font Weight:400px;
 }
 
 
-img{
-    
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 92%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 17px;
+}
+.prodcard {
+  background-color: white;
+  width: 320px;
+  box-shadow: 10px 10px 10px 10px rgb(208, 208, 208);
+  border-radius: 15px;
+  gap: 50px;
+  padding: 12px;
+}
+
+#prod {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1040px;
+  margin: auto;
+}
+
+.clientcard {
+  background-color: white;
+  width: 38%;
+  box-shadow: 10px 10px 10px 10px rgb(208, 208, 208);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+button {
+  border-radius: 3px;
+  padding: 12px;
+  margin: 10px, 0;
+  background-color: #a34e04;
+  color: white;
+  border-style: none;
+}
+
+#avis {
+  justify-items: center;
+  padding: 32px;
 }

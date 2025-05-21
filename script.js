@@ -62,6 +62,8 @@ fetch(
     produit.forEach((e) => {
       let prod = document.getElementById("prod");
       let carte = document.createElement("div");
+      carte.classList.add("prodcard");
+    
 
       let image = document.createElement("img");
       image.src = e["image-url"];
@@ -89,6 +91,7 @@ fetch(
     avis.forEach((i) => {
       let rate = document.getElementById("avis");
       let card = document.createElement("div");
+    card.classList.add("clientcard");
 
       let nom = document.createElement("h4");
       nom.textContent = i.nom;
@@ -114,14 +117,5 @@ fetch(
 //     console.error('Erreur lors du fetch :', error);
 //   });
 
-fetch("URL_ICI")
-  .then((response) => response.json()) // transforme la réponse en JSON
-  .then((data) => {
-    // ici on utilise les données reçues
-    console.log(data);
-  })
 
-  .catch((error) => {
-    // ici on gère les erreurs
-    console.error("Erreur lors du fetch :", error);
-  });
+  
