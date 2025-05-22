@@ -8,35 +8,65 @@
 }
 
 
-
-h1{
-     font-weight: 800;
-    font-size: 40px;
+:root {
+    
+    --beige: #F2EFEE;
+    --caramel: #B7886E;
+    --beige: #ECE1DD;
+    --marron:#513528;
+    --saumon:#F3946F;
+    --saumon2:#F08262;
+    --marron:#95553C;
+    --rouge:#C8002C;
+    --rouge2:#9F0D1D;
+    --ombre: 0px 4px 15px rgb(0 0 0 / 10%);
 }
+
+--backround:#F7EAD9;
+
+
+
+.h1{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: ;
+}
+    
 
    
 
 ul{
     list-style-type: none;
-    
+    display: flex;
+    gap: 20px;
+   
 }
+ a{
+    color:#95553C;
+    text-decoration: none;
+ }
+    
+    
+
 
 nav{
     display: flex;
     justify-content: space-between;
     padding:3px;
+
+align-items: center; 
+/* background-color: #95553C; */
+background-color: #FEF6EB;
+width:100%;
+padding:20px;
+flex-direction: row-reverse;
 }
-h1,h2,h4{
-  font-family: Arial, sans-serif ;
-  font-size: 16px;
-  line-height:24px ;
-  Font Weight:400px;
-}
+
 
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #F7EAD9;
   text-align: center;
   margin: 0;
   display: flex;
@@ -54,7 +84,7 @@ img {
   border-radius: 17px;
 }
 .prodcard {
-  background-color: white;
+  background-color: #FCF5E8;
   width: 320px;
   box-shadow: 10px 10px 10px 10px rgb(208, 208, 208);
   border-radius: 15px;

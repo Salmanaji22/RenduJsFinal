@@ -14,6 +14,7 @@ fetch(
 
     let titre = document.createElement("h1");
     titre.textContent = data.nomEntreprise;
+    titre.classList.add("h1");
 
     // console.log(titre);
 
