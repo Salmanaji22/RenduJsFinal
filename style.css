@@ -22,7 +22,7 @@
     --ombre: 0px 4px 15px rgb(0 0 0 / 10%);
 }
 
---backround:#F7EAD9;
+
 
 
 
@@ -30,6 +30,7 @@
     font-weight: 800;
     font-size: 40px;
     font-family: ;
+    
 }
     
 
@@ -42,7 +43,7 @@ ul{
    
 }
  a{
-    color:#95553C;
+    color:#683126;
     text-decoration: none;
  }
     
@@ -60,6 +61,7 @@ background-color: #FEF6EB;
 width:100%;
 padding:20px;
 flex-direction: row-reverse;
+
 }
 
 
@@ -85,8 +87,9 @@ img {
 }
 .prodcard {
   background-color: #FCF5E8;
+  border: #513528 solid 1px;
   width: 320px;
-  box-shadow: 10px 10px 10px 10px rgb(208, 208, 208);
+  /* box-shadow: 10px 10px 10px 10px rgb(208, 208, 208); */
   border-radius: 15px;
   gap: 50px;
   padding: 12px;
@@ -101,9 +104,14 @@ img {
 }
 
 .clientcard {
-  background-color: white;
+
+     background-color: #683126;
+  border: #FCF5E8 solid 1px;
+  color: #FCF5E8;
+
+  /* background-color: white; */
   width: 38%;
-  box-shadow: 10px 10px 10px 10px rgb(208, 208, 208);
+  /* box-shadow: 10px 10px 10px 10px rgb(208, 208, 208); */
   border-radius: 15px;
   justify-content: center;
   align-items: center;
@@ -112,15 +120,28 @@ img {
 }
 
 button {
-  border-radius: 3px;
-  padding: 12px;
+  border-radius: 5px;
+  padding: 13px;
   margin: 10px, 0;
-  background-color: #a34e04;
-  color: white;
+  /* background-color: #a34e04;
+  color: white; */
   border-style: none;
+   background-color: #FCF5E8;
+  border: #683126 solid 1px;
 }
 
 #avis {
   justify-items: center;
   padding: 32px;
+}
+
+/* footer*/
+
+footer{
+
+    background-color:#683126;
+    color: #F2EFEE;
+    padding: 3%;
+    text-align: center;
+    
 }
