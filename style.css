@@ -30,6 +30,7 @@
     font-weight: 800;
     font-size: 40px;
     font-family: ;
+    color:#683126;
     
 }
     
@@ -54,13 +55,14 @@ nav{
     display: flex;
     justify-content: space-between;
     padding:3px;
+    
 
 align-items: center; 
 /* background-color: #95553C; */
-background-color: #FEF6EB;
+background-color: #F7EAD9;
 width:100%;
 padding:20px;
-flex-direction: row-reverse;
+flex-direction: row-reverse;*
 
 
 }
@@ -69,7 +71,7 @@ flex-direction: row-reverse;
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #F7EAD9;
+  background-color: #FEF6EB;
   text-align: center;
   margin: 0;
   display: flex;
@@ -85,6 +87,11 @@ img {
   height: 300px;
   object-fit: cover;
   border-radius: 17px;
+}
+#logo{
+  width: 28%;
+  height:120px;
+
 }
 
 .prodcard {
@@ -107,9 +114,9 @@ img {
 
 .clientcard {
 
-     background-color: #683126;
+     background-color: #F7EAD9;
   border: #FCF5E8 solid 1px;
-  color: #FCF5E8;
+  color: #683126;
 
   /* background-color: white; */
   width: 38%;
@@ -122,19 +129,22 @@ img {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 1px;
   padding: 13px;
   margin: 10px, 0;
   /* background-color: #a34e04;
   color: white; */
   border-style: none;
-   background-color: #FCF5E8;
-  border: #683126 solid 1px;
+   background-color: #683126 ;
+  border: #FCF5E8 solid 1px;
+  color: #FCF5E8;
 }
 
 #avis {
   justify-items: center;
   padding: 32px;
+  display: flex;
+  gap: 20px;
 }
 
 /* footer*/
@@ -145,8 +155,7 @@ footer{
     color: #F2EFEE;
     padding: 3%;
     text-align: center;
-    
+   
 }
 
-#logft{
-}
+
