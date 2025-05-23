@@ -62,6 +62,7 @@ width:100%;
 padding:20px;
 flex-direction: row-reverse;
 
+
 }
 
 
@@ -85,6 +86,7 @@ img {
   object-fit: cover;
   border-radius: 17px;
 }
+
 .prodcard {
   background-color: #FCF5E8;
   border: #513528 solid 1px;
@@ -144,4 +146,7 @@ footer{
     padding: 3%;
     text-align: center;
     
+}
+
+#logft{
 }
