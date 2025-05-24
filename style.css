@@ -25,13 +25,20 @@
 
 
 
-
 .h1{
     font-weight: 800;
     font-size: 40px;
     font-family: ;
     color:#683126;
     
+}
+
+h3{
+      color: #4B2307;
+}
+
+p{
+  color:#7E4B30;
 }
     
 
@@ -99,7 +106,7 @@ img {
   border: #513528 solid 1px;
   width: 320px;
   /* box-shadow: 10px 10px 10px 10px rgb(208, 208, 208); */
-  border-radius: 15px;
+  border-radius: 7px;
   gap: 50px;
   padding: 12px;
 }
@@ -130,7 +137,7 @@ img {
 
 button {
   border-radius: 1px;
-  padding: 13px;
+  padding: 20px 22px 20px ;
   margin: 10px, 0;
   /* background-color: #a34e04;
   color: white; */
