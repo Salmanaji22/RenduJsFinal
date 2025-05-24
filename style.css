@@ -28,7 +28,7 @@
 .h1{
     font-weight: 800;
     font-size: 40px;
-    font-family: ;
+    font-family:"Playfair Display", serif;
     color:#683126;
     
 }
@@ -88,6 +88,7 @@ z-index: 10;
 }
 
 
+
 body {
   font-family: Arial, sans-serif;
   background-color: #FEF6EB;
@@ -107,7 +108,9 @@ img {
   object-fit: cover;
   border-radius: 17px;
 }
-
+h3,img{
+  font-family: "Playfair Display", serif;
+}
 
 .prodcard {
   background-color: #FCF5E8;
@@ -117,6 +120,11 @@ img {
   border-radius: 7px;
   gap: 50px;
   padding: 12px;
+}
+
+.prodcard:hover{
+transform: scale(1.1);
+background-color: #F7EAD9;
 }
 
 #prod {
@@ -153,7 +161,16 @@ button {
    background-color: #683126 ;
   border: #FCF5E8 solid 1px;
   color: #FCF5E8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
+
+button:hover{
+transform: scale(1.1);
+background-color: #F7EAD9;
+color: #4B2307;
+}
+
 
 #avis {
   justify-items: center;
