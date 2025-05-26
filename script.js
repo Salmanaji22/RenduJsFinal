@@ -97,7 +97,7 @@ fetch(
       let nom = document.createElement("h4");
       nom.textContent = i.nom;
 
-      let typeprest = document.createElement("p");
+      let typeprest = document.createElement("h5");
       typeprest.textContent = i.typePrestation;
 
       let comment = document.createElement("p");

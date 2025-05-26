@@ -5,8 +5,8 @@
 }
 
 h1 {
-  font-weight: 800;
-  font-size: 40px;
+  font-weight: 100;
+  font-size: 52px;
   font-family: "Playfair Display", serif;
   color: #683126;
 }
@@ -16,8 +16,14 @@ h3 {
   text-transform: uppercase;
 }
 
+h5{
+      font-weight: 800;
+      font-size: 15px;
+    line-height: 21px;
+}
 p {
   color: #7e4b30;
+  font-weight: 500;
 }
 
 ul {
@@ -49,7 +55,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 23px;
 }
 
 #logoh {
@@ -164,12 +170,12 @@ h2{
 /* map */
 
 #map {
-   height: 180px;
    height: 250px;
    width: 70%;
-   align-self: anchor-center;
+   align-self:anchor-center;
    margin-bottom: 4%;
    margin-top: 2%;
+   z-index: -1;
 
 
 }
