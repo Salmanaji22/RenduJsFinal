@@ -27,6 +27,7 @@ fetch(
     cta.textContent = data.bouton;
     // console.log(cta);
     
+    
     let bnf = document.getElementById("benef");
 
 
@@ -94,6 +95,9 @@ fetch(
       let card = document.createElement("div");
     card.classList.add("clientcard");
 
+      let imgCom = document.createElement("img");
+      imgCom.src= "profile.svg";
+
       let nom = document.createElement("h4");
       nom.textContent = i.nom;
 
@@ -104,9 +108,10 @@ fetch(
       comment.textContent = i.commentaire;
 
       let not = document.createElement("p");
-      not.textContent = i["note"];
+      not.textContent = i["note"] + "/5";
 
       rate.appendChild(card);
+      card.appendChild(imgCom);
       card.appendChild(nom);
       card.appendChild(typeprest);
       card.appendChild(comment);
