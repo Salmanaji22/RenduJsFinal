@@ -39,6 +39,7 @@ nav {
   width: 100%;
   padding: 15px;
   z-index: 1;
+  
 }
 
 #presentation {
@@ -157,6 +158,20 @@ h2{
   margin-top:24px;
   font-family: "Playfair Display", serif;
   color: #683126;
+}
+
+
+/* map */
+
+#map {
+   height: 180px;
+   height: 250px;
+   width: 70%;
+   align-self: anchor-center;
+   margin-bottom: 4%;
+   margin-top: 2%;
+
+
 }
 
 /* footer*/

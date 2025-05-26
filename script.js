@@ -118,5 +118,16 @@ fetch(
 //     console.error('Erreur lors du fetch :', error);
 //   });
 
+// map
+  var map = L.map('map').setView([45.7578137,4.8320114],13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
 
-  
+
+// ajouter un popup//
+var marker = L.marker([45.7578137,4.8320114]).addTo(map);
+marker.bindPopup("<b>Palais du Chocolat</b><br>144 avenue Jean jaures").openPopup();
+
+
